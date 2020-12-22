@@ -1,0 +1,1 @@
+Aiming to complete CS50 course, I developed a Final Project using JavaScript, HTML5 and CSS3. The project consists of a webpage that helps people to control their finances. by utlizing a simple interface, Equity-webpage's name- show to the user to add all transaction that he has done during the month, how much money he currtently has and how much was spent during last month. 
