@@ -134,7 +134,7 @@ function displayTable () {
                 })
             })
         } else {
-          console.log("ruim")
+          console.log("Error")
         }
         
       });
@@ -282,40 +282,9 @@ function addNew() {
                 
             }
 
-            /*var d = date[8] + date[9] + "/" + date[5] +  date[6] + "/" + date[0] + date[1] + date[2] + date[3]
-            
-
-            var new_data = {
-                Purpose: purpose,
-                Price: price,
-                Type: type,
-                Date: d
-            }
-            firebase.database()
-                    .ref('/userinfo/')
-                    .child(uid)
-                    .push(new_data)
-
-            var tabela = document.getElementById("tabela")
-            var length = tabela.rows.length
-            var linha = tabela.insertRow(-1)
-
-            var cellPurpose = linha.insertCell(0)
-            var cellPrice = linha.insertCell(1)
-            var cellType = linha.insertCell(2)
-            var cellDate = linha.insertCell(3)
-
-            cellPurpose.innerHTML = purpose
-            cellPrice.innerHTML = `US$ ${price}`
-            cellType.innerHTML = type
-            cellDate.innerHTML = d
-
-            var totalCash = document.getElementById("cash")
-           // var totalSpent = docu
-
-*/
+           
         } else {
-          console.log("ruim")
+          console.log("Error")
         }
       })
 }  
@@ -361,7 +330,7 @@ function loadhistory() {
             })
         }
         else {
-            console.log("ruim")
+            console.log("Error")
         }
     })
         
